@@ -1,0 +1,19 @@
+# --- Sensitive files (DO NOT COMMIT) ---
+auth_state.json
+credentials.json
+token.json
+
+# --- Python / virtual env ---
+venv/
+__pycache__/
+*.pyc
+
+# --- Test & report artifacts ---
+.pytest_cache/
+allure-results/
+allure-report/
+
+# --- OS / editor junk ---
+.vscode/
+.idea/
+.DS_Store
